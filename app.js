@@ -27,4 +27,9 @@ button.addEventListener("click", () => {
 
 const vowelsString = () => {
   const vowels = ["a", "e", "i", "ı", "o", "ö", "u", "ü"];
+  const result = input.value
+    .toLowerCase()
+    .split("")
+    .filter((x) => vowels.includes(x)).length;
+  console.log(result);
 };
