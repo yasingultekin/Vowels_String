@@ -10,3 +10,9 @@ console.log(textArray);
 const result = textArray.filter((x) => vowels.includes(x)).length;
 
 console.log(result);
+
+const input = document.querySelector("input");
+
+const button = document.querySelector("button");
+
+const description = document.querySelector(".description");
