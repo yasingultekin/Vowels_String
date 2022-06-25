@@ -16,3 +16,11 @@ const input = document.querySelector("input");
 const button = document.querySelector("button");
 
 const description = document.querySelector(".description");
+
+button.addEventListener("click", () => {
+  if (!input.value) {
+    description.innerHTML = `Please write something!`;
+  } else {
+    vowelsString();
+  }
+});
