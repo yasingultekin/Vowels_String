@@ -24,3 +24,7 @@ button.addEventListener("click", () => {
     vowelsString();
   }
 });
+
+const vowelsString = () => {
+  const vowels = ["a", "e", "i", "ı", "o", "ö", "u", "ü"];
+};
