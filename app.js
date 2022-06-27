@@ -37,12 +37,6 @@ const vowelsString = () => {
   input.value = "";
 };
 
-input.addEventListener("keydown", (e) => {
-  if (e.keyCode === 13) {
-    button.click();
-  }
-});
-
 window.onload = () => {
   input.focus();
 };
