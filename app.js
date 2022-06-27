@@ -42,3 +42,7 @@ input.addEventListener("keydown", (e) => {
     button.click();
   }
 });
+
+window.onload = () => {
+  input.focus();
+};
