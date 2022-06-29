@@ -33,7 +33,7 @@ const vowelsString = () => {
     .filter((x) => vowels.includes(x)).length;
   console.log(result);
 
-  description.innerHTML = `There are ${result} vowels in <span style="color: red">${input.value.toLowerCase()}</span>`;
+  description.innerHTML = `There are ${result} vowels in <span style="color: red">${input.value.toLowerCase()}</span>.`;
   input.value = "";
 };
 

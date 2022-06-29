@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    height: 97vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,4 +70,5 @@ button:focus:not(:active) {
 
 p {
     font-size: 2rem;
+    text-align: center;
 }
