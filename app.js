@@ -40,3 +40,9 @@ const vowelsString = () => {
 window.onload = () => {
   input.focus();
 };
+
+input.addEventListener("keydown", (e) => {
+  if (e.keyCode === 13) {
+    button.click();
+  }
+});
