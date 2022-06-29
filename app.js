@@ -19,7 +19,7 @@ const description = document.querySelector(".description");
 
 button.addEventListener("click", () => {
   if (!input.value) {
-    description.innerHTML = `Please write something!`;
+    description.innerHTML = `<span style="color: red">Please write something!</span>`;
   } else {
     vowelsString();
   }
@@ -33,7 +33,7 @@ const vowelsString = () => {
     .filter((x) => vowels.includes(x)).length;
   console.log(result);
 
-  description.innerHTML = `There are ${result} vowels in <span style="color: red">${input.value.toLowerCase()}`;
+  description.innerHTML = `There are ${result} vowels in <span style="color: red">${input.value.toLowerCase()}</span>`;
   input.value = "";
 };
 
